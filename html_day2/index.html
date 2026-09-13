@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Color</th>
+            <th>Taste</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Red</td>
+            <td>Sweet</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>Yellow</td>
+            <td>Sour</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>Orange</td>
+            <td>Sweet</td>
+        </tr>
+        <tr>
+            <td>Grape</td>
+            <td>Green</td>
+            <td>Sweet</td>
+        </tr>
+    </table>
+    <ul>
+        <li><strong>Paris</strong> - The city of lights in France</li>
+        <li><strong>New York</strong> - The big apple in the United States</li>
+        <li><strong>Tokyo</strong> - The capital of Japan</li>
+        <li><strong>Sydney</strong> - The harbor city in Australia</li>
+        <li><strong>Cairo</strong> - The city of the pyramids in Egypt</li>
+    </ul>
+    <label for="recipe">
+        <h2>Recipe for Chocolate Cake:</h2>
+    </label>
+    <p id="recipe">This is a simple recipe for a delicious chocolate cake that you can make at home. Follow the steps
+        below to create a moist and rich chocolate cake that everyone will love!</p>
+    <ol>
+        <li>Preheat the oven to 350°F (175°C)</li>
+        <li>Mix the flour, sugar, and eggs</li>
+        <li>Bake for 25-30 minutes</li>
+    </ol>
+    <form action="" >
+        <h1>Feedback Form</h1>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" id="name" name="name" minlength="3" maxlength="50"
+            required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        <!-- require at least one gender item to be selected -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+        <label for="age_range">Age Range:</label>
+        <!-- need to require at list one option -->
+        <select name="age_range" id="age_range" required>
+            <option value="">Select an option</option>
+            <option value="18-24">18-24</option>
+            <option value="25-34">25-34</option>
+            <option value="35-44">35-44</option>
+            <option value="45-54">45-54</option>
+            <option value="55+">55+</option>
+        </select><br><br>
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Subscribe to newsletter</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
