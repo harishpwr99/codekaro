@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family:helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.account{
+    padding: 10px;
+    margin:30px auto;
+    width: 700px;
+    height: 210px;
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    border-radius: 50%;
+    border: 1px solid #dddada;
+    padding: 0px;
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+}
+
+.account-img{
+    width: 100%;
+    border-radius: 50%;
+}
+.account-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+}
+.details{
+    /* display: flex; */
+}
+.small-font{
+    font-size: 15px;
+}
+.bold-font{
+    font-weight: bold;
+}
+.profile-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn-div{
+    padding: 0px;
+    margin:30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.followed-img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.followed{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.followed-by{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.profile-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #dddada;
+}
+.active-btn{
+    padding: 15px 15px;
+    border: none;
+    background-color: rgb(73, 93, 249);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 300px;
+    border-radius: 15px;
+    height: 42px;
+}
+.inactive-btn{
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+.small-btn{
+    padding: 15px 15px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 15px;
+    height: 42px;
+}
+.stories{
+    display: flex;
+    padding: 0px;
+    margin:0px auto;
+    width: 700px;
+}
+.story{
+    /* padding: 10px; */
+    margin:30px auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 50%;
+    border: 3px solid #c2bfbf;
+}
+.story-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.stories-title{
+    display: flex;
+    gap:90px;
+    padding: 0px;
+    margin:0px auto;
+    width:600px;
+}
+.options{
+    padding: 20px;
+    margin: 40px auto;
+    width:560px;
+    display: flex;
+    gap: 150px;
+    color: lightgray;
+}
+.feeds{
+    display: flex;
+    gap: 1px;
+    padding: 0px;
+    margin: 0px 0px 300px 300px;
+    width: 700px;
+}
+.showfeed{
+    display: flex;
+    gap:1px;
+    width: 400px;
+    height:400px;
+}
